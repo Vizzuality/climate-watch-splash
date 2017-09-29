@@ -24,7 +24,8 @@ page: home
     Sign up for email updates
 
   %p.contact
-    Contact us: climatewatch@ndcpartnership.org
+    Contact us:
+    %a{href: 'mailto:climatewatch@ndcpartnership.org'} climatewatch@ndcpartnership.org
 
 %footer
   %div
@@ -32,12 +33,16 @@ page: home
       Climate Watch is a joint initiative of
 
     %span.img
-      %img{src: 'images/n-8-iae-lp-white.png', alt: 'NDC Partnership' }
+      %a{href: 'http://www.wri.org'}
+        %img{src: 'images/n-8-iae-lp-white.png', alt: 'NDC Partnership' }
 
     %span.img
-      %img{src: 'images/bitmap.png', alt: 'NDC Partnership' }
+      %a{href: 'http://www.ndcpartnership.org'}
+        %img{src: 'images/bitmap.png', alt: 'NDC Partnership' }
 
   %span.about
-    Partners include Climate Action Tracker, Climate Analytics, GIZ, the World
-    Bank and the UNFCCC.<br/>Generous funding  for this initiative is provided by
-    BMUB, UKBEIS, Google and the Swiss government.
+    Partners include Climate Action Tracker, Climate Analytics, German Institute
+    for International Cooperation, the World Bank and the UNFCCC.
+    <br/>
+    Generous funding  for this initiative is provided by the German Federal Ministry for the Environment,
+    the UK Department for Business, Energy and Industrial Strategy, Google and the Swiss government.
