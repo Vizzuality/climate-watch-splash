@@ -1,0 +1,64 @@
+body {
+  background: url(/images/group@3x.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+#root {
+  margin: 120px 0 0 55px; }
+
+header img.logo {
+  position: relative;
+  left: -5px; }
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: none;
+  color: #bbb; }
+
+section {
+  width: 569px;
+  margin-bottom: 110px; }
+  section p {
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: left; }
+  section p.contact {
+    font-weight: 400;
+    color: #bbb; }
+  section a.signup {
+    display: block;
+    width: 270px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #ffc735;
+    color: #113750;
+    line-height: 26px;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  height: 42px;
+  max-width: 1280px; }
+  footer div {
+    display: flex;
+    align-items: center; }
+  footer img.ndc {
+    margin: 0 38px 0 38px; }
+  footer img.wri {
+    margin: 0 130px 0 0; }
+  footer span {
+    display: inline-block; }
+  footer span.joint {
+    width: 200px; }
+  footer span.about {
+    color: #bbb; }
