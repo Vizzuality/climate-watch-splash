@@ -48,7 +48,9 @@ footer {
   justify-content: space-between;
   font-size: 13px;
   height: 42px;
-  max-width: 1280px; }
+  max-width: 1280px;
+  position: absolute;
+  bottom: 16px; }
   footer div {
     display: flex;
     align-items: center; }
